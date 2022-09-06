@@ -203,7 +203,7 @@
   color: var(--primary-text-color);
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     width: 100%;
   }
