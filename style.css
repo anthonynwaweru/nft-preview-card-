@@ -70,10 +70,13 @@
 }
 .image-contain:hover .icon-view {
   opacity: 1;
+  transition: all ease-in-out 0.5s;
 }
 
 .image-contain:hover .overlay {
   opacity: 0.5;
+  transition: all ease-in-out 0.5s;
+  /* transition: all ease 0.5s; */
 }
 
 .label {
@@ -210,5 +213,15 @@
 
   img {
     width: inherit;
+  }
+}
+
+@media (max-width: 350px) {
+  .pricing-time-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
   }
 }
